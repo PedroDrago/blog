@@ -1,1 +1,1 @@
-# blog
+https://www.alexstevenmartin.com/ -> banner image

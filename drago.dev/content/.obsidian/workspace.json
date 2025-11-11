@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "419741fc53b4b440",
+    "type": "split",
+    "children": [
+      {
+        "id": "da4e249277d3b280",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ba93cdc1d5dc2451",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "first_post.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "first_post"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a158446b49fa2749",
+    "type": "split",
+    "children": [
+      {
+        "id": "4aa4506ac55f51a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed3b58eda9044fa5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b68acad043e2a994",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a0201e2b7f8cd783",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "71a28b5dccef6998",
+    "type": "split",
+    "children": [
+      {
+        "id": "4883951cb4e3e94e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3789008c60374d51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Financeiro.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Financeiro"
+            }
+          },
+          {
+            "id": "6f3bb972ee927a9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Financeiro.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Financeiro"
+            }
+          },
+          {
+            "id": "b264815ffaa7d5c0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2c8a745547fea495",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Financeiro.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Financeiro"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "ed3b58eda9044fa5",
+  "lastOpenFiles": [
+    "first_post.md~",
+    "Trabalho/PD - AL.md",
+    "Untitled",
+    "Trabalho/Daily Vista.md",
+    "Trabalho/Daily BBM.md",
+    "Trabalho/Gestao BBM.md",
+    "Trabalho/One on One Carlos.md",
+    "Trabalho/PD <> AL.md",
+    "Trabalho/Retro BBM.md",
+    "Trabalho/Sync Atomo.md",
+    "Dieta/Menu.md",
+    "Trabalho",
+    "Sofwtare Engineering/Web 101.md",
+    "To-do.md",
+    "Sofwtare Engineering/Shared Memory.md",
+    "Sofwtare Engineering/Neural Networks.md",
+    "Sofwtare Engineering/Golang Middlewares.md",
+    "Sofwtare Engineering/Engineering Principles And Best Practices.md",
+    "Sofwtare Engineering/Data Structures and Algorithms.md",
+    "Sofwtare Engineering/Compilers.md",
+    "Lists/Books.md",
+    "Lists/Buy.md",
+    "Lists/Retro Games.md",
+    "Lists/PC.md",
+    "Lists/Higiene.md",
+    "Dieta/Diário.md",
+    "Dieta",
+    "Lists/Pendências Importantes.md",
+    "Computer Science/Game Theory.md",
+    "testes"
+  ]
+}
