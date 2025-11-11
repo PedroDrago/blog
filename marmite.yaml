@@ -35,8 +35,8 @@ menu:
   - tags.html
 - - Archive
   - archive.html
-- - Authors
-  - authors.html
+- - Author
+  - author-drago.html
 extra:
   colorscheme: github
 authors:
