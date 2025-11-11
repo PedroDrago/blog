@@ -1,13 +1,13 @@
-SRC=drago.dev
+SRC=.
 OUT=site
 
 build: clean
-	@marmite ${SRC} ${OUT} -v
+	@marmite ${SRC} ${OUT} -v --url ""
 
 b: build
 
 watch: clean
-	@marmite ${SRC} ${OUT} --watch --serve
+	@marmite ${SRC} ${OUT} --watch --serve --url ""
 
 w: watch
 
