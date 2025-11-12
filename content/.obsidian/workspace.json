@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "first_post.md",
+                "file": "hello-world.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "first_post"
+              "title": "hello-world"
             }
           }
         ]
@@ -174,9 +174,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ed3b58eda9044fa5",
+  "active": "ba93cdc1d5dc2451",
   "lastOpenFiles": [
+    "hello-world.md~",
+    "primeiro_post.md",
+    "hello-world.md",
+    "primeiro_post.md~",
+    "sobre.md",
+    "_sidebar.example.md",
+    "sobre.md~",
+    "about.md",
     "first_post.md~",
+    "about.md~",
+    "4913",
+    "2025-11-08-welcome.md",
+    "first_post.md",
     "Trabalho/PD - AL.md",
     "Untitled",
     "Trabalho/Daily Vista.md",
@@ -197,14 +209,7 @@
     "Sofwtare Engineering/Data Structures and Algorithms.md",
     "Sofwtare Engineering/Compilers.md",
     "Lists/Books.md",
-    "Lists/Buy.md",
-    "Lists/Retro Games.md",
-    "Lists/PC.md",
-    "Lists/Higiene.md",
-    "Dieta/Diário.md",
     "Dieta",
-    "Lists/Pendências Importantes.md",
-    "Computer Science/Game Theory.md",
     "testes"
   ]
 }
