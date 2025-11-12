@@ -48,13 +48,6 @@ authors:
     links:  
       - ["GitHub", "https://github.com/pedrodrago"]
       - ["Linkedin", "https://www.linkedin.com/in/pedro-drago/"]
-# authors: 
-#   Drago:
-#     name: "Pedro Drago"
-#     avatar: "https://github.com/pedrodrago.png"
-#     bio: "Data Platform Engineer"
-#     links:
-#         - ["GitHub", "https://github.com/pedrodrago"]
 streams: {}
 series: {}
 toc: true
