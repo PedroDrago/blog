@@ -1,7 +1,7 @@
 ---
 title: "Newsletter #00"
 date: 2025-11-13
-# banner_image: https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000
+banner_image: media/6d155202-e585-46da-932e-4b3c6b977cce.png
 author: Drago
 # stream: newsletter
 stream: draft
@@ -9,10 +9,30 @@ description: "Coletania de conteudos que achei interessantes do ultimo mes"
 tags: ptbr, newsletter
 ---
 
-- https://scharenbroch.dev/blog/programming-paradigms/
-- https://www.seangoedecke.com/pure-and-impure-engineering/
-- https://www.cubic.dev/blog/the-real-problem-with-ai-coding?utm_source=tldrnewsletter
-- https://cursor.com/changelog/2-0
+Essa newsletter vai agregar conteúdos que mais gostei de consumir desde a ultima newsletter (não acho que vá ser periódico) e meus pensamentos sobre.
+
+---
+
+### Recomendações
+As newsletters que consumo atualmente são:
+- [TLDR](https://tldr.tech/): Diversas newsletters diárias separadas por temas (dev, devops, infosec, data, AI, etc.) que juntam links recentes interessantes de artigos, noticias e repositórios.
+- [Quastor](https://www.quastor.org/): Artigos mais profundos sobre algum tema específico, costumam chegar de forma mais espaçada (1 vez a cada duas semanas acredito eu).
+- [Lobsters](https://lobste.rs/): Não é uma newsletter, é um feed de artigos selecionados parecido com o HackerNews mas pra mim tem uma seleção mais interessante que o TOP do Hacker News.
+
+---
+
+
+### [Programming Paradigms by Lucas Scharenbroch](https://scharenbroch.dev/blog/programming-paradigms/)
+![foto](https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/B819/production/_128092174_carinanebula.jpg.webp)
+<p><mark>Blogpost</mark>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere mattis enim et congue. Vestibulum vulputate magna tempus, tincidunt nisi ac, dapibus lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ullamcorper pellentesque feugiat. Proin tincidunt urna non est bibendum ultricies semper vel urna. Integer vulputate eros non tortor porttitor molestie. Aenean nec lacus finibus, elementum lorem id, tempus massa. A
+
+
+### [Pure and Impure Software Engineering by Sean Goedecke](https://www.seangoedecke.com/pure-and-impure-engineering/)
+### [The real problem with AI Coding by Paul Sangle-Ferriere](https://www.cubic.dev/blog/the-real-problem-with-ai-coding?utm_source=tldrnewsletter)
+### [Perkeep - permanently keep your stuff, for life. ](https://perkeep.org/code)
+<p><kbd>Tecnologia</kbd>
 
 ### Revisão
 - [ ] preencher FrontMatter
