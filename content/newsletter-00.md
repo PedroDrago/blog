@@ -1,12 +1,12 @@
 ---
 title: "Newsletter #00"
-date: 2025-11-12
+date: 2025-11-13
 # banner_image: https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000
 author: Drago
 # stream: newsletter
 stream: draft
-# description: "Newsletter #00"
-# tags: ptbr, newsletter
+description: "Coletania de conteudos que achei interessantes do ultimo mes"
+tags: ptbr, newsletter
 ---
 
 - https://scharenbroch.dev/blog/programming-paradigms/
@@ -15,8 +15,7 @@ stream: draft
 - https://cursor.com/changelog/2-0
 
 ### Revisão
-- [ ] mark
-
+- [ ] preencher FrontMatter
 - [ ] banner image (bolar padrão para newsletter)
 - [ ] setup elegante de cards para os posts, com imagem que remete ao post, link, breve descricao/resenha
 - [ ] criar botão na navbar pra stream de newsletter 
