@@ -6,9 +6,9 @@ author: Drago
 description: Motivação e Expectativas
 tags: ptbr
 ---
-O intuito desse blog servir como plataforma pra compartilhar coisas que eu gosto (mais sobre tecnologia), praticar tanto [Learn In Public](https://www.swyx.io/learn-in-public) quanto minha escrita e principalmente servir como um arquivo para guardar coisas que vou querer rever no futuro.
+O intuito desse blog é servir como plataforma pra compartilhar coisas que eu gosto (principalmente sobre tecnologia), praticar tanto [Learn In Public](https://www.swyx.io/learn-in-public) quanto minha escrita e principalmente servir como um arquivo para guardar coisas que vou querer rever no futuro.
 
-Planejo escrever alguns tipos de conteúdo diferentes:
+Planejo escrever alguns tipos de conteúdos diferentes:
 - Learn in public
 - Devlogs de projetos
 - Agrupar conteúdos (algo como uma newsletter)
