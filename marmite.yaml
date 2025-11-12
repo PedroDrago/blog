@@ -25,7 +25,6 @@ templates_path: templates
 static_path: static
 media_path: media
 card_image: ''
-# banner_image: 'media/WorkStation-SM.webp'
 banner_image: 'https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000'
 logo_image: ''
 default_date_format: '%b %e, %Y'
@@ -48,13 +47,6 @@ authors:
     links:  
       - ["GitHub", "https://github.com/pedrodrago"]
       - ["Linkedin", "https://www.linkedin.com/in/pedro-drago/"]
-# authors: 
-#   Drago:
-#     name: "Pedro Drago"
-#     avatar: "https://github.com/pedrodrago.png"
-#     bio: "Data Platform Engineer"
-#     links:
-#         - ["GitHub", "https://github.com/pedrodrago"]
 streams: {}
 series: {}
 toc: true
