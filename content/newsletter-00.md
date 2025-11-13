@@ -1,7 +1,9 @@
 ---
 title: "Newsletter #00"
 date: 2025-11-13
-banner_image: media/6d155202-e585-46da-932e-4b3c6b977cce.png
+# banner_image: media/6d155202-e585-46da-932e-4b3c6b977cce.png
+banner_image: media/gemini_messenger.jpg
+
 author: Drago
 # stream: newsletter
 stream: draft
@@ -33,6 +35,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere mattis 
 ### [The real problem with AI Coding by Paul Sangle-Ferriere](https://www.cubic.dev/blog/the-real-problem-with-ai-coding?utm_source=tldrnewsletter)
 ### [Perkeep - permanently keep your stuff, for life. ](https://perkeep.org/code)
 <p><kbd>Tecnologia</kbd>
+
+### https://newsletter.posthog.com/p/collaboration-sucks?utm_source=tldrwebdev
+
+### https://github.com/google/adk-go?utm_source=tldrwebdev
+
+### https://becca.ooo/blog/vertical-integration/?utm_source=tldrwebdev
+fiquei meio chocado no inicio com as ideias, algo aparementemente impossivel nos ambientes que trabalho. Ao longo do post fui discordando de alguns takes sobre open source. Mas o conceito de vertical integration me deixou fascinado, parece algo que eu amaria trabalhar. A parte sobre o pq projetos open source n tem verticalintegration eu discordo, na real eu concordo com o motivo de n terem, mas discordo dos takes do autor (que pareceu meio discordar dos FOSS nesse aspecto), e apesar de concordar com o que ele disse no caso industrial, n eh o que vejo na pratica, ai n sei se vai em ma administracao ou algo assim, mas trabalho em ambientes grandes e estaveis e existe pouco, se bem q pensando agora ate que existe algumas coisas assim mas n sao o suificiente.
 
 ### Revisão
 - [ ] preencher FrontMatter
