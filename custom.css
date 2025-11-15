@@ -4,7 +4,8 @@
 /* } */
 
 
-.data-tags-footer{
+/* keep your custom dark look only when theme is dark */
+[data-theme="dark"] .data-tags-footer {
     background-color: #161B22;
     border-top: 1.5px solid #0D1117;
 }
