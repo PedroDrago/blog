@@ -58,7 +58,7 @@ jobs:
           subject: "Newsletter: Build finished successfully"
           to: ${{ secrets.MAIL_TO }}
           from: ${{ secrets.MAIL_FROM }}
-          secure: true
+          secure: false
           body: |
             Hello!
 
