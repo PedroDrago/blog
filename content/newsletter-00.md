@@ -25,14 +25,14 @@ Newsletters que consumo atualmente:
 ##### [Programming Paradigms by Lucas Scharenbroch](https://scharenbroch.dev/blog/programming-paradigms/)
 > Expanding your toolbelt of paradigms will therefore improve the quality of the code you write, improving the development experience of you and everybody who interacts with your code.
 
-O artigo foca em demonstrar como dominar multiplos paradigmas expande a capacidade do engenheiro de escrever código melhor, e proximo ao fim fornece uma lista interessante de linguagens para dorminar paradigmas focando nas OG de cada paradigma. Me senti atraído pelo artigo pelo fato de que aprender novas linguagens é um dos meus hobbies favoritos, e penso que me aventurei pouco em paradigmas distintos então lendo Programming Paradigms me animei pra montar algum roadmap de paradigmas.
+Foca em demonstrar como dominar multiplos paradigmas expande a capacidade do engenheiro de escrever código melhor, e proximo ao fim fornece uma lista interessante de linguagens para dorminar paradigmas focando nas OG de cada paradigma. Me senti atraído pelo artigo pelo fato de que aprender novas linguagens é um dos meus hobbies favoritos, e penso que me aventurei pouco em paradigmas distintos então lendo Programming Paradigms me animei pra montar algum roadmap de paradigmas.
 
 ---
 
 ##### [Pure and Impure Software Engineering by Sean Goedecke](https://www.seangoedecke.com/pure-and-impure-engineering/)
 > In pure software engineering, what you’re doing is close to art or research, the engineer is driven by an aesthetic sense and it’s open-ended. Impure software engineering is more like plumbing or construction, the engineer’s aesthetic sense is subordinated to someone else’s needs.
 
-O post descreve uma separação entre diferentes tipos de engenharia que eu nunca havia considerado. Acho que, inconscientemente, eu pensava na distinção entre trabalho acadêmico e trabalho corporativo, mas os termos engenharia pura e engenharia impura descrevem isso muito bem.
+Descreve uma separação entre diferentes tipos de engenharia que eu nunca havia considerado. Acho que, inconscientemente, eu pensava na distinção entre trabalho acadêmico e trabalho corporativo, mas os termos engenharia pura e engenharia impura descrevem isso muito bem.
 
 ---
 
