@@ -29,14 +29,13 @@ banner_image: 'https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.p
 logo_image: ''
 default_date_format: '%b %e, %Y'
 menu:
-- - About
-  - hello-world.html
-- - Tags
-  - tags.html
-- - Archive
-  - archive.html
-- - Author
-  - author-drago.html
+  - ["About", "hello-world.html"]
+  - ["Newsletter", "series-newsletter.html"]
+  - ["Tags", "tags.html"]
+  - ["Archive", "archive.html"]
+  - ["Author", "author-drago.html"]
+# - - Newsletter
+#   - 
 extra:
   colorscheme: github
 authors:
