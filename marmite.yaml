@@ -25,7 +25,7 @@ templates_path: templates
 static_path: static
 media_path: media
 card_image: ''
-banner_image: 'https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000'
+# banner_image: 'https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000'
 logo_image: ''
 default_date_format: '%b %e, %Y'
 menu:
