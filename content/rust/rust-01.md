@@ -9,10 +9,11 @@ description: "Ownership"
 tags: ptbr, rust, learn in public
 ---
 
+# RevisÃo
+- [ ] Ler artigos linkados (error prone e os de memory bugs)
+- [ ] Erros de português
+
 Eu ia incluir os estudos de ownership na //obsidian link para rust#00// mas por ser um assunto muito único e relativamente grande achei que caberia uma um capítulo separado.
-
-
-
 
 ---
 
@@ -85,25 +86,18 @@ Hoje em dia poucas linguagens fazem uso de gerenciamento manual, uma outra notó
 
 Agora que entendemos o básico de gerenciamento de memória em outras linguagens surge a dúvida: como podemos não ter que trocar segurança por performance?
 
-E Rust vem com a resposta: Ownership.
+E Rust vem com a resposta: **Ownership**.
 
 Ownership se resume a 3 regras simples:
 - Cada valor possui um **Dono** (**Owner**).
 - Só pode existir um dono por vez pra cada valor.
 - Quando um dono sai do escopo o valor vai ser liberado (**Dropped**).
 
-### Fontes
-- [Understanding Ownership](https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html#understanding-ownership)
-
 # Marca Páginas
 https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules
-
 
 [^1]: **G**arbage **C**collector.
 [^2]: Diversos estudos mostram que mais de 60% das vulnerabilidades em software vem de erros de memória.
     - [Apple Memory Safety](https://langui.sh/2019/07/23/apple-memory-safety/)
     - [Microsoft - We need a safer systems programming language](https://www.microsoft.com/en-us/msrc/blog/2019/07/we-need-a-safer-systems-programming-language)
     - [Google - Queue the Hardening Enhancements](https://security.googleblog.com/2019/05/queue-hardening-enhancements.html)
-
-### RevisÃo
-- [ ] Ler artigos linkados (error prone e os de memory bugs)
