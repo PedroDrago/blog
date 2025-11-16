@@ -2,7 +2,6 @@
 title: "Aprendendo Rust #00"
 date: 2025-11-16
 author: Drago
-stream: draft
 series: rust
 description: "Imutabilidade, Expressions e Statements"
 tags: ptbr, rust, learn in public
