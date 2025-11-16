@@ -19,21 +19,21 @@ Eu ia incluir os estudos de ownership na //obsidian link para rust#00// mas por 
 ### Gerenciamento de Memória
 
 > [!NOTE] Dica
-> A página introdutória de ownershipt tem uma sessão com uma explicação bem sucinta sobre a [diferença entre stack e heap](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap), vale ler se ainda tem dúvidas sobre isso.
+> A página introdutória de ownership tem uma sessão que explica de forma bem sucinta sobre a [diferença entre stack e heap](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap), vale a leitura caso ainda tenha dúvidas sobre isso.
 
 Ownsership é um set de regras bem definido que rege todo o sistema de gerenciamento de memória em Rust, então antes vamos exemplificar dois tipos de gerenciamento de memória clássicos que se diferenciam do de Rust. 
 
 Algumas linguagéns gerenciam memória via garbage collector, um software que vigia a execução do programa para identificar recursos não utilizados e então os libera da memória:
 ```python
 # python
-def cria_e_descarta():
+def allocate_and_free():
     x = [0] * 5_000_000
 
-cria_e_descarta()
+allocante_and_free()
 ```
-No exemplo acima em python criamos uma lista gigantesca alocada no heap, quando a função `cria_e_descarta` chega no final o escopo dela fecha e mais nenhuma referência à lista existe, portanto o garbage collector sabe que pode liberar essa memória de forma segura. O nome dessa técnica é [Reference Counting](https://en.wikipedia.org/wiki/Reference_counting). 
+No exemplo acima em python criamos uma lista alocada no heap, quando a função `allocate_and_free` chega no final o escopo dela fecha e mais nenhuma referência à lista existe, portanto o garbage collector sabe que pode liberar essa memória de forma segura. O nome dessa técnica é [Reference Counting](https://en.wikipedia.org/wiki/Reference_counting). 
 
-Garbage collection é o método de gerenciamento de memória mais utilizado hoje em dia, práticamente todas as linguagens que você conhece ou conhecerá usam um GC [^1] mas isso vem com um tradeoff: performance. Garbage Collection exige que alguma parte do runtime (geralmente sendo outra thread) vigie e libere a memória, portanto consumindo recursos.
+Garbage collection é o método de gerenciamento de memória mais utilizado hoje em dia, práticamente todas as linguagens que você conhece ou conhecerá usam um GC [^1] mas isso vem com um tradeoff: **performance**. Garbage Collection exige que alguma parte do runtime (geralmente sendo outra thread) vigie e libere a memória, assim consumindo recursos.
 
 ---
 Outras linguagens exigem que você aloque e desaloque manualmente sua própria memória no heap:
@@ -79,11 +79,11 @@ No exemplo acima podemos ver que na função `memory_leak` não usamos o `free`,
 ==10225== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
 
-Hoje em dia poucas linguagens fazem uso de gerenciamento manual, uma outra notória é [Zig](https://ziglang.org/). Apesar do gerenciamento manual ser muito mais eficiente do que Garbage Collection o tradeoff aqui é claro: [Error Prone](https://errorprone.info/) e Pouco Ergonômico[^2]. É fácil e acontece mais do que se imagina de um desenvolvedor cometer um erro de gerenciamento de memória e ou deixar memória alocada desnecessáriamente ou pior, gerar um Bug de memória[^3]. 
+Hoje em dia poucas linguagens fazem uso de gerenciamento manual, uma outra notória é [Zig](https://ziglang.org/). Apesar do gerenciamento manual ser muito mais eficiente do que Garbage Collection o tradeoff aqui é claro: [**Error Prone**](https://errorprone.info/). É fácil e acontece mais do que se imagina de um desenvolvedor cometer um erro e deixar memória alocada desnecessáriamente ou pior, gerar um Bug de memória[^2]. 
 
 ### Ownership
 
-Agora que entendemos o panorama de gerenciamento de memória em outras linguagens surge a dúvida: como podemos não ter que trocar segurança por performance?
+Agora que entendemos o básico de gerenciamento de memória em outras linguagens surge a dúvida: como podemos não ter que trocar segurança por performance?
 
 E Rust vem com a resposta: Ownership.
 
@@ -100,8 +100,7 @@ https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#ownership-rules
 
 
 [^1]: **G**arbage **C**collector.
-[^2]: Ergonomia se remete ao quão confortavel é se utilizar uma linguagem, semelhante ao conceito de ergonomia em uma cadeira.
-[^3]: Diversos estudos mostram que mais de 60% das vulnerabilidades em software vem de erros de memória.
+[^2]: Diversos estudos mostram que mais de 60% das vulnerabilidades em software vem de erros de memória.
     - [Apple Memory Safety](https://langui.sh/2019/07/23/apple-memory-safety/)
     - [Microsoft - We need a safer systems programming language](https://www.microsoft.com/en-us/msrc/blog/2019/07/we-need-a-safer-systems-programming-language)
     - [Google - Queue the Hardening Enhancements](https://security.googleblog.com/2019/05/queue-hardening-enhancements.html)
