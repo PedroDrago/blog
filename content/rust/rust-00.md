@@ -33,7 +33,7 @@ error: could not compile `branches` (bin "branches") due to 1 previous error
 Imagino que, quando começarmos a adentrar os pântanos mais complexos como [Macros](https://doc.rust-lang.org/reference/procedural-macros.html) ou [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) as mensagens vão ficar cada vez mais complexas (espero nunca ver stack traces parecidos com erros de compilação de templates em C++98).
 
 ### Imutabilidade
-Uma feature que a qualidade pode passar despercebida por muitos é a imutabilidade by default, que, além de manter o código seguro, impedindo alteração acidental de valores, também o deixa mais legível sempre tendo `mut` denotando para leitores o que é mutável e o que não é. A respeito desse assunto recentemente vi [esse post](https://x.com/id_aa_carmack/status/1983593511703474196) do lendário [John Carmack](https://pt.wikipedia.org/wiki/John_Carmack) e traz uma perspectiva diferente sobre o assunto de imutabilidade.
+Uma feature que a importância pode passar despercebida por muitos é a imutabilidade by default, que, além de manter o código seguro, impedindo alteração acidental de valores, também o deixa mais legível sempre tendo `mut` denotando para leitores o que é mutável e o que não é. A respeito desse assunto recentemente vi [esse tweet](https://x.com/id_aa_carmack/status/1983593511703474196) do lendário [John Carmack](https://pt.wikipedia.org/wiki/John_Carmack) que traz uma perspectiva diferente sobre o assunto da imutabilidade.
 
 ### Statements VS Expressions
 Rust tem esses dois conceitos bem definidos, e entender isso tem importância na interpretação do código. `statements` são instruções que performam uma ação e **não retornam um valor**, `expressions` *evaluate*[^1] para um valor resultante:
@@ -50,5 +50,6 @@ let i = if true { 10 } else { 25 }; // ifs são expressions
 
 Não gostei da questão de `;` ter o valor semântico implicito de terminar apenas statements, da mesma forma que detesto a sintaxe de [exportação em Go](https://go.dev/tour/basics/3), preferiria que usassem uma keyword `pub`/`public`. Também não sou fã dessa idéia de implicit return (a ultima expressão num escopo ser retornada) preferiria que houvesse a obrigatoriedade de `return` explícito. Gosto de expressividade, especialmente nesses casos onde não adiciona verbosidade.
 
+---
 
 [^1]: [*evaluate*](https://en.wikipedia.org/wiki/Evaluation) é uma palavra muito dificil de se traduzir, vou escolher manter palavras assim em ingles.
