@@ -30,7 +30,7 @@ error[E0308]: `if` and `else` have incompatible types
 For more information about this error, try `rustc --explain E0308`.
 error: could not compile `branches` (bin "branches") due to 1 previous error
 ```
-Imagino que, quando começarmos a adentrar os pântanos mais complexos como [Macros](https://doc.rust-lang.org/reference/procedural-macros.html) ou [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) as mensagens vão ficando cada vez mais complexas (espero nunca ver stack traces parecidos com erros de compilação de templates em C++98), mas por enquanto fiquei impressionado.
+Imagino que, quando começarmos a adentrar os pântanos mais complexos como [Macros](https://doc.rust-lang.org/reference/procedural-macros.html) ou [Lifetimes](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html) as mensagens vão ficar cada vez mais complexas (espero nunca ver stack traces parecidos com erros de compilação de templates em C++98).
 
 ### Imutabilidade
 Uma feature que a qualidade pode passar despercebida por muitos é a imutabilidade by default, que, além de manter o código seguro, impedindo alteração acidental de valores, também o deixa mais legível sempre tendo `mut` denotando para leitores o que é mutável e o que não é. A respeito desse assunto recentemente vi [esse post](https://x.com/id_aa_carmack/status/1983593511703474196) do lendário [John Carmack](https://pt.wikipedia.org/wiki/John_Carmack) e traz uma perspectiva diferente sobre o assunto de imutabilidade.
