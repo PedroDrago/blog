@@ -1,6 +1,7 @@
 ---
 title: "Aprendendo Rust #00"
 date: 2025-11-16
+banner_image: media/rust_cover.png
 author: Drago
 series: rust
 description: "Imutabilidade, Expressions e Statements"
