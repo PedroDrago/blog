@@ -5,7 +5,7 @@ banner_image: media/newsletter_cover.png
 author: Drago
 series: newsletter
 description: "AI, Paradigmas e Colaboração"
-tags: ptbr, newsletter
+tags: ptbr, newsletter, AI
 ---
 
 Essa newsletter vai agregar conteúdos que mais gostei de consumir desde a ultima newsletter.

@@ -4,7 +4,7 @@ url: 'https://pedrodrago.github.io/blog'
 https: null
 footer: ''
 language: ''
-pagination: 10
+pagination: 20
 pages_title: Pages
 tags_title: Tags
 tags_content_title: Posts tagged with '$tag'
@@ -25,17 +25,15 @@ templates_path: templates
 static_path: static
 media_path: media
 card_image: ''
-# banner_image: 'https://framerusercontent.com/images/0njP0oXU63CcXMafnpxfho2ixY.png?width=1784&height=1000'
 logo_image: ''
 default_date_format: '%b %e, %Y'
 menu:
   - ["About", "hello-world.html"]
   - ["Newsletter", "series-newsletter.html"]
+  - ["Series", "series.html"]
   - ["Tags", "tags.html"]
   - ["Archive", "archive.html"]
   - ["Author", "author-drago.html"]
-# - - Newsletter
-#   - 
 extra:
   colorscheme: github
 authors:
