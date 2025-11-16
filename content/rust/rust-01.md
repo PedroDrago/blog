@@ -4,7 +4,7 @@ date: 2025-11-17
 banner_image: media/rust_cover.png
 author: Drago
 stream: draft
-series: rust
+# series: rust
 description: "Ownership"
 tags: ptbr, rust, learn in public
 ---
