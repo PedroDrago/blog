@@ -50,6 +50,4 @@ let i = if true { 10 } else { 25 }; // ifs são expressions
 
 Não gostei da questão de `;` ter o valor semântico implicito de terminar apenas statements, da mesma forma que detesto a sintaxe de [exportação em Go](https://go.dev/tour/basics/3), preferiria que usassem uma keyword `pub`/`public`. Também não sou fã dessa idéia de implicit return (a ultima expressão num escopo ser retornada) preferiria que houvesse a obrigatoriedade de `return` explícito. Gosto de expressividade, especialmente nesses casos onde não adiciona verbosidade.
 
----
-
 [^1]: [*evaluate*](https://en.wikipedia.org/wiki/Evaluation) é uma palavra muito dificil de se traduzir, vou escolher manter palavras assim em ingles.
