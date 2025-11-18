@@ -1,10 +1,11 @@
 ---
-title: "Um pouco sobre Gerenciamento de Memória"
+title: Um pouco sobre Gerenciamento de Memória
 date: 2025-11-17
 banner_image: media/memory_management_cover.png
 author: Drago
-description: "Uma breve introdução em gerenciamento de memória."
+description: Uma breve introdução sobre gerenciamento de memória.
 tags: ptbr, ciência da computação
+slug: gerenciamento-de-memoria
 ---
 
 ### Stack vs Heap

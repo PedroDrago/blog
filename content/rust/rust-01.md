@@ -8,24 +8,9 @@ stream: draft
 description: "Ownership"
 tags: ptbr, rust, learn in public
 ---
-
-# RevisÃo
-- [ ] Ler artigos linkados (error prone e os de memory bugs)
-- [ ] Erros de português
-
-Eu ia incluir os estudos de ownership na //obsidian link para rust#00// mas por ser um assunto muito único e relativamente grande achei que caberia uma um capítulo separado.
-
----
-
-### Gerenciamento de Memória
-- linkar e falar sobre artigo separado
-
-
+Para podermos falar sobre Ownership em Rust precisamos conhecer um pouco sobre os métodos mais clássicos de gerenciar memória. No post [Um pouco sobre Gerenciamento de Memória](gerenciamento-de-memoria.html) falo um pouco sobre o que sei do tema.
 ### Ownership
-
-Agora que entendemos o básico de gerenciamento de memória em outras linguagens surge a dúvida: como podemos não ter que trocar segurança por performance?
-
-E Rust vem com a resposta: **Ownership**.
+Ownership é um modelo de gerenciamento de memória automático (não existe que o desenvolvedor aloque e desaloque memória manualmente) mas que requer que o desenvolvedor entenda suas regras.
 
 Ownership se resume a 3 regras simples:
 - Cada valor possui um **Dono** (**Owner**).

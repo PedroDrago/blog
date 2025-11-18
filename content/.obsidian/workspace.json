@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "da4e249277d3b280",
+        "id": "0a3db6711d84d697",
         "type": "tabs",
         "children": [
           {
-            "id": "ba93cdc1d5dc2451",
+            "id": "2187df34130f7ca1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hello-world.md",
+                "file": "gerenciamento-de-memoria.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "hello-world"
+              "title": "gerenciamento-de-memoria"
             }
           }
         ]
@@ -168,22 +168,26 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "workspaces:Manage workspace layouts": false,
-      "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ba93cdc1d5dc2451",
+  "active": "2187df34130f7ca1",
   "lastOpenFiles": [
+    "rust/rust-01.md",
+    "gerenciamento-de-memoria.md",
+    "Um pouco sobre Gerenciamento de Memória.md",
+    "Gerenciamento de Memoria.md",
+    "_sidebar.example.md",
+    "hello-world.md",
+    "Untitled.base",
     "test-draft.md~",
     "test-draft.md",
     "hello-world.md~",
     "primeiro_post.md",
-    "hello-world.md",
     "primeiro_post.md~",
     "sobre.md",
-    "_sidebar.example.md",
     "sobre.md~",
     "about.md",
     "first_post.md~",
@@ -206,11 +210,6 @@
     "To-do.md",
     "Sofwtare Engineering/Shared Memory.md",
     "Sofwtare Engineering/Neural Networks.md",
-    "Sofwtare Engineering/Golang Middlewares.md",
-    "Sofwtare Engineering/Engineering Principles And Best Practices.md",
-    "Sofwtare Engineering/Data Structures and Algorithms.md",
-    "Sofwtare Engineering/Compilers.md",
-    "Dieta",
-    "testes"
+    "Sofwtare Engineering/Golang Middlewares.md"
   ]
 }
