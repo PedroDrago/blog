@@ -23,7 +23,6 @@ Gerenciar memória é controlar **o quê**, **quanto**, **como** e **quando** é
 ### Gerenciamento Manual
 Gerenciamento manual é quando a linguagem exige que você  declare explicitamente quando e quanto alocar, e quando desalocar. Ou seja, controle total sobre as alocações de um programa.
 ```c
-//c
 #include <stdlib.h>
 void memory_leak(){
     char *ptr = malloc(50);
@@ -40,7 +39,7 @@ int main(int argc, char **argv){
     return 0;
 }
 ```
-No exemplo acima podemos ver que na função `memory_leak` não usamos o `free`, isso faz com que quando o escopo acabe nenhuma referência à memória de `*ptr` exista mais, assim, essa memória [vazou](https://pt.wikipedia.org/wiki/Vazamento_de_mem%C3%B3ria) e nunca mais será possível liberá-la (durante a execução do programa). Você pode verificar isso usando uma ferramenta de instrumentação chamada [Valgrind](https://valgrind.org/):
+No exemplo acima em [C](https://en.wikipedia.org/wiki/C_(programming_language)) podemos ver que na função `memory_leak` não usamos o `free`, isso faz com que quando o escopo acabe nenhuma referência à memória de `*ptr` exista mais, assim, essa memória [vazou](https://pt.wikipedia.org/wiki/Vazamento_de_mem%C3%B3ria) e nunca mais será possível liberá-la (durante a execução do programa). Você pode verificar isso usando uma ferramenta de instrumentação chamada [Valgrind](https://valgrind.org/):
 ```
 $ valgrind ./meu_executavel
 ==10225== Memcheck, a memory error detector
@@ -65,10 +64,7 @@ $ valgrind ./meu_executavel
 ==10225== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
 
-
-
 ```c
-
 #include <stdio.h>
 
 int main() {
@@ -90,7 +86,6 @@ Hoje em dia, poucas linguagens fazem uso de gerenciamento manual, uma outra not�
 ### Garbage Collection
 Garbage collection é uma técnica de gerenciamento de memória que provê uma limpeza automática de tudo aquilo que se considera "lixo", que é memória que não precisa estar mais alocada. A grande questão é quando considerar uma memória como lixo de forma segura, para isso as duas principais técnicas de *GC*[^3] são [Reference Counting](https://en.wikipedia.org/wiki/Reference_counting), que se baseia em contar quantas referências a um valor existem e quando esse contador chegar a zero essa memória é liberada automaticamente, e [Tracing](https://en.wikipedia.org/wiki/Tracing_garbage_collection) que se baseia em rastrear objetos acessíveis a partir de pontos de entrada chamados Root.
 ```python
-# python
 def create_n_sized_list():
     x = ""
     lst = []
@@ -101,7 +96,7 @@ def create_n_sized_list():
 
 create_n_sized_list()
 ```
-No exemplo acima em python criamos uma lista alocada no heap, ao final da função `create_n_sized_list()` o escopo dela se fecha e mais nenhuma referência à lista existe, portanto o garbage collector sabe que pode liberar essa memória de forma segura. A vantagem de se usar Garbage Collectors é evidente: melhora notória na DevEx[^4].
+No exemplo acima em [Python](https://pt.wikipedia.org/wiki/Python) criamos uma lista alocada no heap, ao final da função `create_n_sized_list()` o escopo dela se fecha e mais nenhuma referência à lista existe, portanto o garbage collector sabe que pode liberar essa memória de forma segura. A vantagem de se usar Garbage Collectors é evidente: melhora notória na DevEx[^4].
 
 A desvantagem está na perda de causada pelo GC rodando checar as referências ou fazer o tracing dos objetos. 
 
