@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gerenciamento-de-memoria.md",
+                "file": "rust/rust-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gerenciamento-de-memoria"
+              "title": "rust-01"
             }
           }
         ]
@@ -175,8 +175,8 @@
   },
   "active": "2187df34130f7ca1",
   "lastOpenFiles": [
-    "rust/rust-01.md",
     "gerenciamento-de-memoria.md",
+    "rust/rust-01.md",
     "Um pouco sobre Gerenciamento de Memória.md",
     "Gerenciamento de Memoria.md",
     "_sidebar.example.md",
